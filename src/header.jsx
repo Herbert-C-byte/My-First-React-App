@@ -4,13 +4,13 @@ import './App.css'
 
 function Header() {
     return (
-        <header>
-        <img src="./icons8-react-50.png" alt="React Logo" width="40px" />
+        <header className='header'>
+        <img src="./icons8-react-50.png" className='nav-logo' alt="React Logo" />
         <nav>
-            <ul>
-                <li>Pricing</li>
-                <li>About</li>
-                <li>Contact</li>
+            <ul className='nav-list'>
+                <li className="nav-list-item">Pricing</li>
+                <li className="nav-list-item">About</li>
+                <li className="nav-list-item">Contact</li>
             </ul>
         </nav>
       </header>

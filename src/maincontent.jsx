@@ -1,9 +1,9 @@
 import { useState } from 'react'
 import './App.css'
 
-function MainMain () {
+function MainContent () {
     return (
-        <main>
+        <main className='mainContent'>
         <h1>Reasons why I am excited to learn React</h1>
         <ol>
         <li>Because this is fun</li>
@@ -13,4 +13,4 @@ function MainMain () {
     )
 }
 
-export default MainMain
+export default MainContent
