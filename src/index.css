@@ -6,6 +6,11 @@ body {
     font-family: Inter;
 }
 
+main {
+    max-width: 90%;
+    margin-left: 20px;
+}
+
 .container {
     margin: 45px 40px;
 }
@@ -25,8 +30,13 @@ header > img {
 }
 
 header > h1 {
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     font-weight: 500;
+}
+
+hr {
+    margin: 5px 25px 5px 39px;
+    opacity: 0.5;
 }
 
 article.journal-entry {
@@ -87,3 +97,10 @@ article.journal-entry .main-image {
     -webkit-box-orient: vertical;  
     overflow: hidden;
 }
+
+/* Animation */
+a:hover {
+    color: #F55A5A;
+}
+
+/* Responsivness */
