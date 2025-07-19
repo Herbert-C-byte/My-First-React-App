@@ -1,5 +1,5 @@
 import { useState } from 'react'
-
+/*
 function MainContent () {
     return (
         <main>
@@ -13,6 +13,6 @@ function MainContent () {
             </ul>
         </main>
     ) 
-}
+} */
 
-export default MainContent
+// export default MainContent

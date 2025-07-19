@@ -1,6 +1,7 @@
 import { useState } from 'react'
-import MainContent from './components/MainContent.jsx'
-import NavBar from './components/Navbar.jsx'
+/* import MainContent from './components/MainContent.jsx' */
+import Header from './header.jsx'
+import Entry from './components/Entry.jsx'
 
 
 function App() {
@@ -8,8 +9,8 @@ function App() {
 
   return (
       <>
-        <NavBar />
-        <MainContent />
+        <Header />
+        <Entry />
       </>
 
   )
