@@ -5,7 +5,7 @@ function NavBar () {
     return (
         <header>
             <nav>
-                <img src="../public/icons8-react-50.png" alt="React Logo" />
+                <img src="../public/react-2.svg" alt="React Logo" />
                 <span>ReactFacts</span>
             </nav>
         </header>
