@@ -1,7 +1,7 @@
-import { useState } from 'react'
+import { useState } from "react"
 /* import MainContent from './components/MainContent.jsx' */
-import Header from './header.jsx'
-import Entry from './components/Entry.jsx'
+import Header from "./header.jsx"
+import Entry from "./components/Entry.jsx"
 
 
 function App() {
