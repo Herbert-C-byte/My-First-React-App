@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-function Main () {
+function MainContent () {
     return (
         <main>
             <h1>Fun facts about React</h1>
@@ -15,4 +15,4 @@ function Main () {
     ) 
 }
 
-export default Main
+export default MainContent

@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Main from './components/main.jsx'
+import MainContent from './components/MainContent.jsx'
 import NavBar from './components/Navbar.jsx'
 
 
@@ -9,7 +9,7 @@ function App() {
   return (
       <>
         <NavBar />
-        <Main />
+        <MainContent />
       </>
 
   )
