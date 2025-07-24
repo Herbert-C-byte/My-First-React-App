@@ -6,11 +6,6 @@ body {
     font-family: Inter;
 }
 
-main {
-    max-width: 90%;
-    margin-left: 20px;
-}
-
 .container {
     margin: 45px 40px;
 }
@@ -30,18 +25,13 @@ header > img {
 }
 
 header > h1 {
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     font-weight: 500;
-}
-
-hr {
-    margin: 5px 25px 5px 39px;
-    opacity: 0.5;
 }
 
 article.journal-entry {
     display: flex;
-    margin: 10px 20px;
+    margin-bottom: 36px;
 }
 
 article.journal-entry .marker {
@@ -102,5 +92,3 @@ article.journal-entry .main-image {
 a:hover {
     color: #F55A5A;
 }
-
-/* Responsivness */
