@@ -5,4 +5,4 @@ function Footer() {
   return <footer className="footer">2025 Cássio Costa development. All rights reserved.</footer>;
 }
 
-export default Footer;
+
